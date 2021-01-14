@@ -111,8 +111,8 @@ public class Airport {
         return planes;
     }
 
-    private void printPlanes(Collection<? extends Plane> collection) {
-        Iterator<? extends Plane> iterator = collection.iterator();
+    private void printPlanes(Collection<? extends Plane> airport) {
+        Iterator<? extends Plane> iterator = airport.iterator();
         while (iterator.hasNext()) {
             Plane plane = iterator.next();
             System.out.println(plane);
